@@ -2,6 +2,8 @@ import java.util.*;
 
 public class classMatrices {
 
+    
+    //searching an element
     public static boolean search(int matrix[][], int key) {
         for(int i=0; i<matrix.length; i++) {
             for(int j=0; j<matrix[0].length; j++) {
